@@ -1,0 +1,119 @@
+/* src/App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #3f51b5;
+  padding: 16px 24px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 2px 8px rgb(63 81 181 / 0.3);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  user-select: none;
+}
+
+header nav a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+header nav a:hover,
+header nav a.active {
+  background-color: rgba(255 255 255 / 0.2);
+}
+
+button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgb(63 81 181 / 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #303f9f;
+  box-shadow: 0 4px 10px rgb(48 63 159 / 0.6);
+}
+
+h2 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 700;
+  color: #3f51b5;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  background-color: white;
+  padding: 14px 20px;
+  margin-bottom: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.07);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, select {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1.5px solid #ccc;
+  font-size: 16px;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #3f51b5;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* Допоміжні відступи */
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+nav a {
+  outline: none;
+}
+
+nav a:focus-visible {
+  outline: 2px solid blue;
+}
